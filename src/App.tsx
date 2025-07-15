@@ -9,7 +9,7 @@ import AdminDashboard from './components/AdminDashboard';
 import ProtectedRoute from './components/ProtectedRoute';
 import { AuthProvider } from './context/AuthContext';
 import './App.css';
-
+{/* This is a comment inside JSX */}
 const theme = createTheme({
   palette: {
     primary: {

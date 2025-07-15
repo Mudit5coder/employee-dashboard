@@ -32,7 +32,7 @@ const LoginPage: React.FC = () => {
     setError('');
     setLoading(true);
 
-    if (!email.includes('@company.com')) {
+    if (!email.includes('@p2psofttek.com')) {
       setError('Please use your company email address');
       setLoading(false);
       return;
@@ -91,7 +91,7 @@ const LoginPage: React.FC = () => {
               autoFocus
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="your.name@company.com"
+              placeholder="your.name@p2psofttek.com"
               disabled={loading}
             />
             <TextField
@@ -124,10 +124,10 @@ const LoginPage: React.FC = () => {
               Demo credentials:
             </Typography>
             <Typography variant="body2" color="textSecondary">
-              Employee: john.doe@company.com
+              Employee: john.doe@p2psofttek.com
             </Typography>
             <Typography variant="body2" color="textSecondary">
-              Admin: admin@company.com
+              Admin: admin@p2psofttek.com
             </Typography>
           </Box>
         </Paper>
